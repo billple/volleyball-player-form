@@ -1,0 +1,96 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title">Volleyball Player Form</h1>
+
+<div class="form-container">
+  <p id="description">Let us know more about you!</p>
+    <form id="survey-form">
+      <div class="rowTab">
+        <div class="leftTab">
+          <label id="name-label" for="name">Name:</label>
+        </div>
+        <div class="rightTab">
+          <input id="name" type="text" name="name" placeholder="Enter Name" required>
+        </div>
+      </div>
+
+      <div class="rowTab">
+        <div class="leftTab">
+          <label id="email-label" for="email">Email:</label>
+        </div>
+        <div class="rightTab">
+          <input id="email" type="email" name="email" placeholder="Enter Valid Email" required>
+        </div>
+      </div>
+
+      <div class="rowTab">
+        <div class="leftTab">
+          <label id="number-label" for="number">Age:</label>
+        </div>
+        <div class="rightTab">
+          <input id="number" min="16" Max="99" type="number" name="number" placeholder="Enter Age">
+        </div>
+      </div>
+
+      <div class="rowTab">
+        <div class="leftTab">
+          <label id="level-lable" >
+            What level?
+          </label>
+        </div>
+        <div class="rightTab">
+          <select id="dropdown">
+            <option value="aaopen">AA/Open</option>
+            <option value="bb">B/BB</option>
+            <option value="rec">Recreational</option>
+            <option selected>Select Level</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="rowTab">
+        <div class="leftTab">
+          <label id="gender-label" for="gender"> Gender: </label>
+        </div>
+        <div class="rightTab">
+          <input type="radio" name="gender" value="male">Male
+      </div>
+        <div class="leftTab"></div>
+        <div class="rightTab">
+          <input type="radio" name="gender" value="female">Female </br>
+          <input type="radio" name="gender" value="other">Other
+        </div>
+      </div>
+
+      <div class="rowTab">
+        <div class="leftTab">
+          <label id="position-label">What position(s) do you play?                </label>
+        </div>
+        <div class="rightTab">
+          <input type="checkbox" name="postion1" value="Outside"> OH <br>
+          </div>
+        <div class="leftTab"></div>
+        <div class="rightTab">
+        <input type="checkbox" name="postion2" value="Setter"> S <br>
+<input type="checkbox" name="postion3" value="Middle"> Mid <br>
+<input type="checkbox" name="position4" value="Libero"> Lib <br>
+          <input type="checkbox" name="postion5" value="Opposite"> Opp <br>
+        </div>
+      </div>
+
+      <div class="rowTab">
+        <div class="leftTab">Leave any comments here:</div>
+        <div class="rightTab">
+         <textarea>Enter Comments...</textarea>
+        </div>
+      </div>
+
+    <div class="rowTab">
+      <div class="leftTab">
+       </div>
+      <div class="rightTab">
+        <input id="submit" type="submit" name="comments" rows="10" cols="30">
+      </div>
+    </div>
+    </form>
+  </div>
